@@ -1,8 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import { PauseCircle, PlayCircle } from "lucide-react";
+import { Book, BookCopy, PauseCircle, PlayCircle } from "lucide-react";
 import DesktopView from "./views/desktopView";
 import MobileView from "./views/mobileView";
+import IconButton from "./ui/IconButton";
+import { Icons } from "./Icons";
 
 interface AboutPageProps {}
 
@@ -26,6 +28,7 @@ const AboutPage: React.FC<AboutPageProps> = () => {
     <>
       <MobileView>
         <div className="flex flex-col w-screen items-center justify-around gap-10 relative px-3 mt-[-70px]">
+         
           <div className="flex items-center justify-center relative h-[155px]">
             <video
               id="about-video"
@@ -33,7 +36,7 @@ const AboutPage: React.FC<AboutPageProps> = () => {
               src="https://www.w3schools.com/html/mov_bbb.mp4"
             />
             <button
-              className="absolute bottom-0 right-0 flex justify-center items-center rounded-lg ml-[-75px] w-[48px] h-[35px] bg-[#ff7433] z-10"
+              className="absolute bottom-0 right-0 flex justify-center items-center rounded-lg ml-[-75px] w-[48px] h-[35px] bg-primary z-10"
               onClick={handleTogglePlay}
             >
               {isPlaying ? (
@@ -44,7 +47,7 @@ const AboutPage: React.FC<AboutPageProps> = () => {
             </button>
           </div>
           <div className="flex flex-col items-center justify-center text-justify px-7">
-            <div className="text-[#ff7433] text-[30px] font-black leading-normal capitalize mb-4">
+            <div className="text-primary text-[30px] font-black leading-normal capitalize mb-4">
               Our Story
             </div>
             <p className="text-[#04536c] text-[16px] mb-4">
@@ -56,7 +59,7 @@ const AboutPage: React.FC<AboutPageProps> = () => {
               <br />
               Deserunt ullamco est sit Velit officia consequat duis enim
             </p>
-            <div className="py-3 px-8 rounded-2xl bg-[#ff7433] text-white font-Mulish text-[.8125rem] leading-normal uppercase mb-4">
+            <div className="py-3 px-8 rounded-2xl bg-primary text-white font-Mulish text-[.8125rem] leading-normal uppercase mb-4">
               Read more
             </div>
           </div>
@@ -67,11 +70,11 @@ const AboutPage: React.FC<AboutPageProps> = () => {
           <div className="flex items-center justify-center relative h-[455px]">
             <video
               id="about-video"
-              className="h-[455px] z-[-1] rounded-lg"
+              className="h-[455px] z-[0] rounded-lg"
               src="https://www.w3schools.com/html/mov_bbb.mp4"
             />
             <button
-              className="absolute bottom-0 right-0 flex justify-center items-center rounded-lg ml-[-75px] w-[88px] h-[65px] bg-[#ff7433] z-10"
+              className="absolute bottom-0 right-0 flex justify-center items-center rounded-lg ml-[-75px] w-[88px] h-[65px] bg-primary z-10"
               onClick={handleTogglePlay}
             >
               {isPlaying ? (
@@ -82,7 +85,7 @@ const AboutPage: React.FC<AboutPageProps> = () => {
             </button>
           </div>
           <div className="flex flex-col items-center justify-center text-center">
-            <div className="text-[#ff7433] text-[30px] font-black leading-normal capitalize mb-4">
+            <div className="text-primary text-[30px] font-black leading-normal capitalize mb-4">
               Our Story
             </div>
             <p className="text-[#04536c] text-[16px] mb-4">
@@ -94,9 +97,13 @@ const AboutPage: React.FC<AboutPageProps> = () => {
               <br />
               Deserunt ullamco est sit Velit officia consequat duis enim
             </p>
-            <div className="py-3 px-8 rounded-2xl bg-[#ff7433] text-white font-Mulish text-[.8125rem] leading-normal uppercase mb-4">
-              Read more
-            </div>
+            <IconButton
+              icon={BookCopy}
+              text="ReadMore"
+              variant="primary"
+              width="150px"
+              height="50px"
+            />
           </div>
         </div>
       </DesktopView>

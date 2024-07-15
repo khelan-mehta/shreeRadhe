@@ -5,8 +5,57 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-rgb: 255, 255, 255;
+  --background: 37 18% 91%;
+  /* #ECEAE5 */
+  --foreground: 0 0% 13%;
+  /* antique black */
+  --primary: 22 100% 60%;
+  /* #FF7433 */
+  --primary-foreground: 22 100% 78%;
+  /* Light shade of #FF7433 */
+  --secondary: 195 86% 22%;
+  /* #09566E */
+  --secondary-foreground: 195 59% 41%;
+  /* Light shade of #09566E */
+  --muted: var(--foreground)/70%;
+  --muted-foreground: 240 3.8% 46.1%;
+  --accent: 186 29% 61%;
+  /* light green shade sorts */
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+  --border: var(--secondary-foreground);
+  --input: var(--primary);
+  --ring: 240 5.9% 10%;
+  --radius: .75rem;
+  --text-primary: var(--primary);
+  /* #FF7433 */
+  --text-foreground: 0 0% 100%;
+  /* white */
+}
+
+.bg-background {
+  background-color: #ECEAE5;
+}
+
+
+.text-primary {
+  color: #FF7433;
+}
+
+.text-foreground {
+  color: white;
+}
+
+.text-secondary {
+  color: #09566E;
+}
+
+.bg-backgroundSecond {
+  background-color: #F2F2F2;
+}
+
+.bg-primary {
+  background-color: #FF7433;
 }
 
 @media (prefers-color-scheme: light) {
@@ -147,6 +196,11 @@ body {
   font-family: "Kanit", sans-serif;
   font-weight: 900;
   font-style: italic;
+}
+
+.d::-webkit-scrollbar {
+  margin: 10px;
+  width: 0px;
 }
 
 .customScrollBar::-webkit-scrollbar {

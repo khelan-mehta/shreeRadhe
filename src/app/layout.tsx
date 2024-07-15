@@ -16,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="customScrollBar overflow-x-hidden">
-      <body className={inter.className + " bg-[#ECEAE5]"}>
+    <html lang="en" className="customScrollBar  overflow-x-hidden">
+      <body className={inter.className + " bg-background"}>
         <Navbar />
         <div className="flex sm:mt-60 mt-32">{children}</div>
       </body>

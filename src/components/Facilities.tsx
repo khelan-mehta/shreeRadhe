@@ -82,10 +82,10 @@ const Facilities: React.FC = () => {
                   height={50}
                 />
                 <div className="flex flex-col ml-[10px]">
-                  <div className="text-[#ff7433] font-['Mulish'] text-[1.0625rem] font-black  capitalize">
+                  <div className="text-primary font-['Mulish'] text-[1.0625rem] font-black  capitalize">
                     Wi-Fi
                   </div>
-                  <div className=" text-[#04536c] font-['Mulish'] text-[.9375rem] ">
+                  <div className=" text-secondary font-['Mulish'] text-[.9375rem] ">
                     Amet minim mollit non
                   </div>
                 </div>
@@ -100,10 +100,10 @@ const Facilities: React.FC = () => {
                   height={50}
                 />
                 <div className="flex flex-col ml-[10px]">
-                  <div className="text-[#ff7433] font-['Mulish'] text-[1.0625rem] font-black  capitalize">
+                  <div className="text-primary font-['Mulish'] text-[1.0625rem] font-black  capitalize">
                     Parking
                   </div>
-                  <div className=" text-[#04536c] font-['Mulish'] text-[.9375rem] ">
+                  <div className=" text-secondary font-['Mulish'] text-[.9375rem] ">
                     Lorem ipsum dolor sit
                   </div>
                 </div>
@@ -118,10 +118,10 @@ const Facilities: React.FC = () => {
                   height={50}
                 />
                 <div className="flex flex-col ml-[10px]">
-                  <div className="text-[#ff7433] font-['Mulish'] text-[1.0625rem] font-black  capitalize">
+                  <div className="text-primary font-['Mulish'] text-[1.0625rem] font-black  capitalize">
                     Gym
                   </div>
-                  <div className=" text-[#04536c] font-['Mulish'] text-[.9375rem] ">
+                  <div className=" text-secondary font-['Mulish'] text-[.9375rem] ">
                     Sed do eiusmod tempor
                   </div>
                 </div>
@@ -136,10 +136,10 @@ const Facilities: React.FC = () => {
                   height={50}
                 />
                 <div className="flex flex-col ml-[10px]">
-                  <div className="text-[#ff7433] font-['Mulish'] text-[1.0625rem] font-black  capitalize">
+                  <div className="text-primary font-['Mulish'] text-[1.0625rem] font-black  capitalize">
                     Pool
                   </div>
-                  <div className=" text-[#04536c] font-['Mulish'] text-[.9375rem] ">
+                  <div className=" text-secondary font-['Mulish'] text-[.9375rem] ">
                     Incididunt ut labore et
                   </div>
                 </div>
@@ -170,10 +170,10 @@ const Facilities: React.FC = () => {
                     height={50}
                   />
                   <div className="flex flex-col ml-[10px]">
-                    <div className="text-[#ff7433] font-['Mulish'] text-[1.0625rem] font-black  capitalize">
+                    <div className="text-primary font-['Mulish'] text-[1.0625rem] font-black  capitalize">
                       Library
                     </div>
-                    <div className=" text-[#04536c] font-['Mulish'] text-[.9375rem] ">
+                    <div className=" text-secondary font-['Mulish'] text-[.9375rem] ">
                       Ut enim ad minim veniam
                     </div>
                   </div>
@@ -188,10 +188,10 @@ const Facilities: React.FC = () => {
                     height={50}
                   />
                   <div className="flex flex-col ml-[10px]">
-                    <div className="text-[#ff7433] font-['Mulish'] text-[1.0625rem] font-black  capitalize">
+                    <div className="text-primary font-['Mulish'] text-[1.0625rem] font-black  capitalize">
                       Cafeteria
                     </div>
-                    <div className=" text-[#04536c] font-['Mulish'] text-[.9375rem] ">
+                    <div className=" text-secondary font-['Mulish'] text-[.9375rem] ">
                       Quis nostrud exercitation
                     </div>
                   </div>

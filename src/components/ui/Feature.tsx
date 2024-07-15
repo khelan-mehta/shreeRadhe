@@ -21,10 +21,10 @@ export const Feature: React.FC<FeatureProps> = ({
     <div className="flex items-center justify-center gap-5 h-full">
       <Icon />
       <div className="flex flex-col">
-        <div className="text-[#ff7433]  text-[1.0625rem] font-black capitalize">
+        <div className="text-primary  text-[1.0625rem] font-black capitalize">
           {title}
         </div>
-        <div className="text-[#04536c]  text-[.9375rem]">{description}</div>
+        <div className="text-secondary  text-[.9375rem]">{description}</div>
       </div>
     </div>
   </div>
